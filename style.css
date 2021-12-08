@@ -11,7 +11,7 @@ body {
      display: flex;
       /* padding: 60px; */
       flex-direction: column;
-      overflow:hidden;
+     overflow-x: hidden;
       /* background-color: #191513; */
       color: #fff;
 }
@@ -23,9 +23,9 @@ body {
 
       display: flex;
       flex-direction: column;
-     padding: 40px;
+     padding:60px;
       background-color: #f0f0f0;
-      height:65vh;
+      height:50vh;
       
 }
 
@@ -71,7 +71,7 @@ label {
       background-color: black;
       width: 100%;
       color: #007bff;
-      padding: 40px;
+      padding: 35px;
 }
 
 #outputbox {
@@ -80,3 +80,26 @@ label {
      font-weight: bold;
 }
 
+
+
+.footer {
+
+      background-color: black;
+
+      height:17vh;
+      padding:25px;
+
+}
+li {
+
+      list-style: none;
+      display: inline-block;
+      margin: 18px;
+      font-size:20px;
+      
+}
+
+li a {
+
+     color:#007bff;
+}
